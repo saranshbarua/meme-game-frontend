@@ -14,7 +14,7 @@ export default class Home extends Component {
         </div>
 
         <div className="create-server">
-            <button className="cs">
+            <button className="cr">
                 <FontAwesomeIcon 
                     icon="plus"
                     size="3x"
@@ -22,6 +22,11 @@ export default class Home extends Component {
                 />
             </button>
         </div>
+        <span className="ssp-400" style={{marginTop: '10px', color: '#607d8b'}}>Create Room</span>
+        
+        <button className="er ssp-400">
+            Join a room
+        </button>
 
       </div>
     )
