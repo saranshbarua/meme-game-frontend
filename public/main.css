@@ -43,3 +43,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.create-server {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid #cfd8dc;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #303f9f;
+}

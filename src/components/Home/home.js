@@ -7,6 +7,13 @@ export default class Home extends Component {
         <div className="paci logo">
             Meme Lord
         </div>
+
+        <div className="create-server">
+            <button className="cs">
+                
+            </button>
+        </div>
+
       </div>
     )
   }
