@@ -79,3 +79,47 @@ body {
 .er:focus {
     outline: none;
 }
+
+.join-room {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.inpt {
+    margin: 10px;
+    height: 35px;
+    width: 300px;
+    border: 0px;
+    border-bottom: 2px solid #303f9f;
+    font-size: 16px;
+}
+
+.inpt:focus {
+    outline: none;
+}
+
+.enter-room {
+    height: 40px;
+    width: 320px;
+    color:#303f9f;
+    margin-top: 25px;
+    border: 2px solid #303f9f;
+    border-radius: 500px;
+    background-color: white;
+    font-size: 17px;
+}
+
+.enter-room:focus {
+    outline: none;
+}
