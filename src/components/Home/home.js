@@ -1,4 +1,9 @@
 import React, { Component } from 'react'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+library.add(faPlus);
 
 export default class Home extends Component {
   render() {
@@ -10,7 +15,11 @@ export default class Home extends Component {
 
         <div className="create-server">
             <button className="cs">
-                
+                <FontAwesomeIcon 
+                    icon="plus"
+                    size="3x"
+                    color="white"
+                />
             </button>
         </div>
 
